@@ -10,7 +10,7 @@ class GeometryDashTerminal < Formula
   def install
     system "make"
     bin.install "dash"
-    pkgshare.install "stereomadness.txt"
+    pkgshare.install "levels/stereomadness.txt"
   end
 
   def caveats
