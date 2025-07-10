@@ -9,8 +9,17 @@ class TerminalDash < Formula
 
   def install
     system "make"
-    bin.install "terminal-dash"
+    bin.install "terminal-dash" => "terminal-dash-bin"
     pkgshare.install "levels/stereomadness.txt"
+
+    (bin/"terminal-dash").write <<~EOS
+      #!/bin/bash
+      LEVEL_FILE="#{pkgshare}/stereomadness.txt"
+      exec "#{bin}/terminal-dash-bin" "$LEVEL_FILE"
+    EOS
+
+    # make sure wrapper is executable
+    chmod 0755, bin/"terminal-dash"  
   end
 
   def caveats
