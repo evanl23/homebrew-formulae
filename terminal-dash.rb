@@ -1,8 +1,8 @@
 class TerminalDash < Formula
   desc "An ASCII version of Geometry Dash by RobTop built for your terminal"
   homepage "https://github.com/evanl23/geometry-dash-terminal"
-  url "https://github.com/evanl23/geometry-dash-terminal/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "9ebbe2941a6e799cbf8e6b7bfe8817e1d3e91fcc6cd630d079890f07de3d788e"
+  url "https://github.com/evanl23/geometry-dash-terminal/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "292b0724eb62115b1d6c2c1107343c12981a0d5ac9edbfee796c877635bedd59"
   license "MIT"
 
   depends_on "ncurses"
