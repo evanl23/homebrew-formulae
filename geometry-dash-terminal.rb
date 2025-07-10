@@ -16,7 +16,7 @@ class GeometryDashTerminal < Formula
   def caveats
     <<~EOS
       To play the game:
-        GeometryDash
+        dash
 
       The level file is installed at:
         #{opt_pkgshare}/stereomadness.txt
