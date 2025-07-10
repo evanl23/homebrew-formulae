@@ -1,4 +1,4 @@
-class GeometryDashTerminal < Formula
+class TerminalDash < Formula
   desc "An ASCII version of Geometry Dash by RobTop built for your terminal"
   homepage "https://github.com/evanl23/geometry-dash-terminal"
   url "https://github.com/evanl23/geometry-dash-terminal/archive/refs/tags/v1.0.1.tar.gz"
