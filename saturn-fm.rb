@@ -1,4 +1,4 @@
-class Saturn < Formula 
+class SaturnFm < Formula 
   desc "An animated TUI for enjoying music while studying."
   homepage "https://github.com/evanl23/saturn.fm"
   url "https://github.com/evanl23/saturn.fm/archive/refs/tags/v1.0.0.tar.gz"
