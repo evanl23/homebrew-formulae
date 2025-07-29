@@ -8,6 +8,7 @@ class SaturnFm < Formula
 
   depends_on "ffmpeg"
   depends_on "bash"
+  depends_on "coreutils"
 
   def install 
     bin.install "saturn.fm" => "saturn.fm"
