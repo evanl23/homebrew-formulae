@@ -1,9 +1,9 @@
 class SaturnFm < Formula 
   desc "An animated TUI for enjoying music while studying."
   homepage "https://github.com/evanl23/saturn.fm"
-  url "https://github.com/evanl23/saturn.fm/archive/refs/tags/v1.0.1.tar.gz"
-  version "v1.0.1"
-  sha256 "6d8ab05dd2cb51af3c5a1f08d66336768ee653ed5ffe52f4a751f22703161f28"
+  url "https://github.com/evanl23/saturn.fm/archive/refs/tags/v1.0.2.tar.gz"
+  version "v1.0.2"
+  sha256 "b6e5ba38c3cff19e46d81e65a2562f279571c0048618f178b5700e50544846e5"
   license "MIT"
 
   depends_on "ffmpeg"
